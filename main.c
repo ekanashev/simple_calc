@@ -14,10 +14,11 @@ int main()
     printf("%d + %d = %d\n", a, b, c);
     c = a - b;
     printf("%d - %d = %d\n", a, b, c);
+    c = a / b;
+    printf("%d / %d = %d\n", a, b, c);
     c = a * b;
     printf("%d * %d = %d\n", a, b, c);
     c = abs(a);
     printf("|%d| = %d\n", a, c);
-
     return 0;
 }
